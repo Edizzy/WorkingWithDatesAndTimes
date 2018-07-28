@@ -10,7 +10,7 @@ namespace WorkingWithTimesAndDates
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("pleas type in a date as follows xx/xx/xxxx.");
+            Console.WriteLine("Please type in a date as follows xx/xx/xxxx.");
             DateTime myValue = DateTime.Parse(Console.ReadLine());
             Console.WriteLine(myValue.ToLongDateString());
             Console.ReadLine();
